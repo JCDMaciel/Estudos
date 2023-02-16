@@ -1,0 +1,30 @@
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: black;
+}
+
+.container__descricao {
+    padding: 2em;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    padding: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0.1em;
+    color: var(--branco);
+}
+
+.descricao__texto {
+    color: var(--branco);
+}

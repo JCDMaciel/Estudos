@@ -1,0 +1,33 @@
+.metricas {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 112px 96px 112px;
+    justify-content: space-around;
+}
+
+.item_metrica {
+    padding: 0px;
+    width: 280px;
+    height: 192px;
+}
+
+.numero_das_metricas {
+    color: var(--vermelho);
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.titulo_das_metricas {
+    color: var(--preto_texto);
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 28px;
+}
+
+.texto_das_metricas {
+    color: var(--cinza);
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+}

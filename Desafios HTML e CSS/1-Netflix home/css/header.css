@@ -1,0 +1,95 @@
+.header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: var(--branco);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("../img/background.jpg");
+    filter: (0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+    font-family: var(--font_principal);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1520px;
+    height: 100px;
+}
+
+.logo_netflix {
+    height: 2.8125rem;
+    width: 10.4375rem;
+    margin: 25px 55px;
+}
+
+.botao_linguagem {
+    width: 113.2px;
+    height:  36.2px;
+    padding: 4px 22px; 
+    font-size: .875rem; 
+    margin: 25px;
+    background-color: transparent;
+    color: var(--branco);
+    border-radius: 3px;
+    border-color: var(--branco);
+}
+
+.botao_entrar {
+    width: 79px;
+    height:  34px;
+    padding: 7px 17px;
+    background-color: var(--vermelho);
+    color: var(--branco);
+    margin-right: 40px;
+    border-radius: 3px;
+}
+
+.texto {
+    width: 950px;
+    height: 494px;
+    margin: 0 auto;
+}
+
+.titulo_header {
+    margin-top: 160px;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.subtitulo_header {
+    font-size: 35px;
+    margin-bottom: 45px;
+}
+ 
+.texto_header {
+    font-size: 27px;
+    margin-bottom: 25px;
+}
+
+.email,
+.botao_email {
+    border-radius: 3px;
+    border-style: none;
+    margin: 0;
+}
+
+.email {
+    width: 500px;
+    background-color: var(--branco);
+    font-size: 16px;
+    height: 68px;
+}
+
+.botao_email {
+    width: 210px;
+    background-color: var(--vermelho);
+    color: var(--branco);
+    font-size: 1.875rem;
+    padding-bottom: 6px;
+    padding-top: 1px;
+    text-align: center;
+    height: 70px;
+}

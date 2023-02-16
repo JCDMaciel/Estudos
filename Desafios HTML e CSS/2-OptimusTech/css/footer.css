@@ -1,0 +1,59 @@
+.footer {
+    width: 1440px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.titulo_do_footer {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--preto_texto);
+    margin: 96px auto 20px;
+}
+
+.texto_do_footer {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--cinza);
+    margin: 0 auto 40px;
+}
+
+.cadastral {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+}
+
+.email {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cinza);
+    width: 360px;
+    height: 48px;
+    margin-right: 16px;
+    padding: 0 16px;
+}
+
+.botao_cadastro_footer {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    border-radius: 8px;
+    width: 116px;
+    height: 48px;
+}
+
+.cp_texto {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cinza);
+    margin: 0 auto 96px;
+}

@@ -1,0 +1,41 @@
+.footer {
+    display: block;
+    color: var(--branco);
+    background-color: black;
+    padding: 56px;
+    font-family: var(--font_principal);
+    
+}
+
+.duvidas,
+.texto__rodape {
+    margin-left: 50px;
+}
+
+.botao_linguagem_rodape {
+    width: 113.2px;
+    height:  36.2px;
+    padding: 4px 22px; 
+    font-size: .875rem; 
+    margin: 50px;
+    background-color: transparent;
+    color: var(--branco);
+    border-radius: 3px;
+    border-color: var(--branco);
+}
+
+.listas__rodape {
+    margin-top: 25px;
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.link {
+    text-decoration: none;
+    padding: 12px 12px;
+    margin: 12px 0 16px;
+    font-size: 13px;
+    color: var(--branco);
+}

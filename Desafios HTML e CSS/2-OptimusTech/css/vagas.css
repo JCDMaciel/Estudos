@@ -1,0 +1,100 @@
+.vagas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.banner_vagas {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 64px;
+}
+
+.sub_titulo_banner_vagas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 14px;
+    padding: 4px 12px;
+    width: 125px;
+    height: 28px;
+    color: var(--vermelho);
+    background-color: var(--vermelho_claro);
+    margin: 0 auto;
+    border-radius: 16px;
+}
+
+.titulo_banner_vagas {
+    font-weight: 600;
+    color: var(--preto_texto);
+    line-height: 44px;
+    font-size: 36px;
+    padding: 20px 0px 20px 0px;
+}
+
+.texto_banner_vagas {
+    font-weight: 400;
+    color: var(--cinza);
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.img_banner {
+    width: 1216px;
+    height: 400px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.card {
+    width: 768px;
+    height: 136px;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-inline: auto;
+    text-align: start;
+}
+
+.classe_do_cargo {
+    color: var(--cinza_titulo);
+    font-size: 20px;
+    width: 768px;
+    height: 30px;
+    text-align: start;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.titulo_do_cargo {
+    color: var(--cinza_titulo);
+    font-size: 18px;
+    margin: 24px;
+}
+
+.salario_do_cargo, 
+.horario_do_cargo {
+    color: var(--cinza);
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 28px;
+    width: 171px;
+    height: 24px;
+}
+
+.horario_do_cargo {
+    padding-left: 24px;
+    padding-right: 12px;
+}
+
+.salario_do_cargo {
+    padding-left: 12px;
+    padding-right: 24px;
+}

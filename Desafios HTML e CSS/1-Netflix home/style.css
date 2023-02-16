@@ -1,0 +1,20 @@
+@import url("css/header.css");
+@import url("css/body.css");
+@import url("css/footer.css");
+@import url("css/perguntas.css");
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url("fonts/HelveticaNeue-Medium.otf");
+}
+
+:root {
+    --font_principal: 'Helvetica';
+    --branco: #FFFFFF;
+    --vermelho: #E50914;
+}
+
+.body {
+    font-family: var(--font_principal);
+    color: var(--branco);
+}

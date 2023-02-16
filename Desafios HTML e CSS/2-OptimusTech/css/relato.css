@@ -1,0 +1,51 @@
+.relato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1216px;
+    height: 404px;
+    padding: 64px;
+    background-color: var(--vermelho_claro);
+    margin: 0 auto 96px;
+    text-align: center;
+}
+
+.titulo_do_relato {
+    color: var(--vermelho);
+    margin: 64px auto 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.texto_do_relato {
+    width: 1088px;
+    height: 88px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--preto_texto);
+    margin: 0 auto 32px;
+    letter-spacing: -0.02em;
+}
+
+.imagem_relato {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 16px;
+}
+
+.nome_do_relatante {
+    color: var(--preto_texto);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+
+.cargo_do_relatante {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--cinza);
+}

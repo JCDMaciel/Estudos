@@ -1,0 +1,54 @@
+.perguntas {
+    background-color: black;
+    color: var(--branco);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--font_principal);
+}
+
+.perguntas__frequentes {
+    font-weight: 400;
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 35px;
+}
+
+.botao__perguntas {
+    margin: 8px;
+    width: 740px;
+    background: #303030;
+    text-align: left;
+    padding: 20.8px 57.2px 20.8px 31.2px;
+    font-size: 1.625rem;
+}
+
+.texto__perguntas {
+    margin: 40px;
+}
+
+
+.email_perguntas,
+.botao_email_perguntas {
+    border-radius: 3px;
+    border-style: none;
+    margin: 0;
+}
+
+.email_perguntas {
+    width: 500px;
+    background-color: var(--branco);
+    font-size: 16px;
+    height: 68px;
+}
+
+.botao_email_perguntas {
+    width: 210px;
+    background-color: var(--vermelho);
+    color: var(--branco);
+    font-size: 1.875rem;
+    padding-bottom: 6px;
+    padding-top: 1px;
+    text-align: center;
+    height: 70px;
+}
